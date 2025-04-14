@@ -157,3 +157,25 @@ After setting up the GitHub Actions workflow, commit and push the changes:
 git add .github/
 git commit -m "Add GitHub Actions workflow for Lambda deployment"
 git push
+
+
+
+
+Part 9: Verify Deployment
+Go to the Actions tab in your GitHub repository.
+
+You will see the workflow running. Once the workflow completes, go to the AWS Lambda Console.
+
+Select the HelloLambda function.
+
+Click Test to create a test event and trigger the function.
+
+You should see the following response:
+
+json
+Copy
+Edit
+{
+  "statusCode": 200,
+  "body": "Hello from Lambda, how are you?"
+}
