@@ -180,3 +180,41 @@ Edit
   "body": "Hello from Lambda, how are you?"
 }
 
+ Expose Lambda via API Gateway
+✅ Steps to Create the API
+Go to API Gateway Console
+
+Create a new REST API
+
+Create a resource /hello
+
+Add a GET method
+
+Integration type: Lambda Function
+
+Enable Lambda Proxy Integration
+
+Enter your Lambda name: HelloLambda
+
+Deploy the API
+
+Stage name: Demoapi
+
+🌍 Public API Endpoint
+Your Lambda is now available here:
+
+➡️ https://l0bspy8ru7.execute-api.us-east-1.amazonaws.com/Demoapi/hello
+
+💬 Response:
+json
+Copy
+Edit
+{
+  "statusCode": 200,
+  "body": "Hello from Lambda, how are you?"
+}
+🧪 Test it with curl
+bash
+Copy
+Edit
+curl https://l0bspy8ru7.execute-api.us-east-1.amazonaws.com/Demoapi/hello
