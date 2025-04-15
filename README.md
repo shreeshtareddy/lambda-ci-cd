@@ -143,6 +143,10 @@ Before you begin, ensure that you have the following tools installed on your loc
             zip_file: lambda/function.zip
     ```
 
+
+![Screenshot 2025-04-14 153446](https://github.com/user-attachments/assets/28a20811-6d39-4326-8544-ee2759f78150)
+
+
 ### Part 7: Add GitHub Secrets
 
 1. Go to **Settings > Secrets and variables > Actions** in your GitHub repository.
@@ -184,6 +188,11 @@ Edit
   "body": "Hello from Lambda, how are you?"
 }
 
+
+
+
+![Screenshot 2025-04-14 142923](https://github.com/user-attachments/assets/1b6801d9-a562-44e8-86d4-957dc3bcc8e3)
+
  Expose Lambda via API Gateway
 ✅ Steps to Create the API
 Go to API Gateway Console
@@ -203,6 +212,10 @@ Enter your Lambda name: HelloLambda
 Deploy the API
 
 Stage name: Demoapi
+
+
+![Screenshot 2025-04-14 153251](https://github.com/user-attachments/assets/7f9d1bb8-1eca-44bf-a563-ae9c3bcbeb37)
+
 
 🌍 Public API Endpoint
 Your Lambda is now available here:
