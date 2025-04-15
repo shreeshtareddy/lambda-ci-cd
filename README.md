@@ -59,6 +59,7 @@ Before you begin, ensure that you have the following tools installed on your loc
     ```
 
 2. This creates a `function.zip` file that contains your Lambda function and dependencies, which can be deployed to AWS Lambda.
+3. 
 
 ### Part 3: Create IAM Role for Lambda
 
@@ -158,6 +159,9 @@ git add .github/
 git commit -m "Add GitHub Actions workflow for Lambda deployment"
 git push
 
+
+
+![Screenshot 2025-04-14 141549](https://github.com/user-attachments/assets/58bd81cc-d129-4277-9f9a-b5d182ec3ea8)
 
 
 
